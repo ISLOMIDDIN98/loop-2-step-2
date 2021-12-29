@@ -21,7 +21,7 @@ margin: 0;
 font-family:"arial", serif;
 font-size: 16px;
 line-height: 1.5;
-background-color: #fff;
+background-color: rgb(80, 77, 77);
 color: #000;
 
 }
@@ -47,4 +47,139 @@ height: auto;
 
 .main-content{
   flex-grow: 1;
+}
+
+.form-wrapper{
+ margin-top: 50px;
+
+}
+
+
+.form {
+  width: 500px;
+
+  padding-top: 50px;
+  background-color: rgb(216, 230, 20);
+  position: relative;
+}
+
+.site-top{
+
+  position: relative;
+}
+.form-title {
+  padding: 0;
+  margin: 0;
+
+padding-left: 30px;
+font-size: 26px;
+line-height: 1.5;
+color: #000;
+}
+.close-icon {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  position: absolute;
+top: 0;
+left: 80%;
+
+
+}
+.close-icon-img {
+
+}
+
+.section{
+
+
+}
+.wrapper-inputs {
+
+  width: 500px;
+  background-color: #fff;
+  margin-top: 60px;
+  padding-top: 50px;
+  position: relative;
+  left: 50px;
+
+}
+.user-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50px;
+  transform: translateY(-50%);
+}
+.input-wrapper {
+width: 400px;
+color: #000;
+margin-right: auto;
+margin-left: auto;
+padding-bottom: 5px;
+border-bottom: 1px solid rgb(95, 90, 90);
+
+margin-top: 20px;
+}
+
+/* .input-wrapper:not(:last-child){
+  margin-top: 20px;
+} */
+
+.first-last-name{
+  display: flex;
+}
+.label {
+  display: block;
+text-transform: uppercase;
+opacity: 0.4;
+}
+.input {
+display: block;
+padding-top: 8px;
+border: 0;
+
+}
+
+
+.username-input {
+}
+.firstname-input {
+}
+.lastname-input {
+}
+.email-input {
+}
+.textarea-wrapper{
+  padding-bottom: 30px;
+  border-bottom: 0;
+
+}
+.textarea {
+  display: block;
+  width: 400px;
+  min-height: 90px;
+
+}
+
+
+.site-botton{
+
+  display: flex;
+justify-content: flex-end;
+align-items: center;
+margin: 40px;
+padding-bottom: 30px;
+}
+
+
+
+.cancel-button {
+  margin-right: 40px;
+}
+.save-button {
 }

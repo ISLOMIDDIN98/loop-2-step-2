@@ -15,6 +15,56 @@
 </head>
 <body>
 
+  <section class="container form-wrapper">
+<form class="form" action="https://echo.htmlacademy.ru" method="post">
+<div class="site-top">
+  <h2 class="form-title">Account settings</h2>
+  <button class="close-icon" type="button"><img class="close-icon-img" src="img/close-icon.png" alt="close-icon" width="30" height="30" srcset="img/close-icon.png 1x, img/close-icon@2x.png 2x"></button>
+</div>
+
+<section class="section">
+
+
+  <div class="wrapper-inputs">
+  <img class="user-photo" src="img/user-photo.jpg" alt="user-photo" width="128" height="128" srcset="img/user-photo.jpg 1x, img/user-photo@2x.jpg 2x">
+  <div class="input-wrapper">
+    <label class="label" for="username">username</label>
+    <input class="input username-input" type="text" name="username" id="username" placeholder="Enret your username" required>
+  </div>
+  <div class="input-wrapper first-last-name">
+    <div>
+      <label class="label" for="firstname">firstname</label>
+      <input class="input firstname-input" type="text" name="firstname" id="firstname" placeholder="Enret your firstname" required>
+    </div>
+    <div>
+      <label class="label" for="lastname">lastname</label>
+      <input class="input lastname-input" type="text" name="lastname" id="lastname" placeholder="Enret your lastname" required>
+    </div>
+  </div>
+  <div class="input-wrapper">
+    <label class="label" for="email">email</label>
+    <input class="input email-input" type="email" name="email" id="email" placeholder="Enret your email" required>
+  </div>
+
+  <div class="input-wrapper textarea-wrapper">
+    <label class="label" for="message-input">bio</label>
+    <textarea class="textarea input" name="message" id="message-input" placeholder="Tell us aboute yourself" required></textarea>
+  </div>
+
+
+  </div>
+</section>
+
+<div class="site-botton">
+
+  <button class="cancel-button" type="button">Cancel</button>
+  <button class="save-button" >Save</button>
+</div>
+
+
+</form>
+
+  </section>
 
   <script src="js/main.js"></script>
 </body>
