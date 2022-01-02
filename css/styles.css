@@ -64,7 +64,7 @@ height: auto;
 }
 
 .site-top{
-
+margin: 20px;
   position: relative;
 }
 .form-title {
@@ -84,7 +84,7 @@ color: #000;
   border: 0;
   position: absolute;
 top: 0;
-left: 80%;
+left: 90%;
 
 
 }
