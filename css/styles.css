@@ -13,23 +13,23 @@ html{
 
 
 body{
-display: flex;
-flex-direction: column;
-height: 100%;
-padding: 0;
-margin: 0;
-font-family:"arial", serif;
-font-size: 16px;
-line-height: 1.5;
-background-color: rgb(80, 77, 77);
-color: #000;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family:"arial", serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: rgb(80, 77, 77);
+  color: #000;
 
 }
 
 
 img{
-max-width: 100%;
-height: auto;
+  max-width: 100%;
+  height: auto;
 
 }
 
@@ -50,7 +50,7 @@ height: auto;
 }
 
 .form-wrapper{
- margin-top: 50px;
+  margin-top: 50px;
 
 }
 
@@ -64,17 +64,17 @@ height: auto;
 }
 
 .site-top{
-margin: 20px;
+  margin: 20px;
   position: relative;
 }
 .form-title {
   padding: 0;
   margin: 0;
 
-padding-left: 30px;
-font-size: 26px;
-line-height: 1.5;
-color: #000;
+  padding-left: 30px;
+  font-size: 26px;
+  line-height: 1.5;
+  color: #000;
 }
 .close-icon {
   width: 30px;
@@ -83,19 +83,12 @@ color: #000;
   margin: 0;
   border: 0;
   position: absolute;
-top: 0;
-left: 90%;
+  top: 0;
+  left: 90%;
 
 
 }
-.close-icon-img {
 
-}
-
-.section{
-
-
-}
 .wrapper-inputs {
 
   width: 500px;
@@ -116,14 +109,14 @@ left: 90%;
   transform: translateY(-50%);
 }
 .input-wrapper {
-width: 400px;
-color: #000;
-margin-right: auto;
-margin-left: auto;
-padding-bottom: 5px;
-border-bottom: 1px solid rgb(95, 90, 90);
+  width: 400px;
+  color: #000;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgb(95, 90, 90);
 
-margin-top: 20px;
+  margin-top: 20px;
 }
 
 /* .input-wrapper:not(:last-child){
@@ -135,45 +128,36 @@ margin-top: 20px;
 }
 .label {
   display: block;
-text-transform: uppercase;
-opacity: 0.4;
+  text-transform: uppercase;
+  opacity: 0.4;
 }
 .input {
-display: block;
-padding-top: 8px;
-border: 0;
+  display: block;
+  padding-top: 8px;
+  border: 0;
 
 }
 
 
-.username-input {
-}
-.firstname-input {
-}
-.lastname-input {
-}
-.email-input {
-}
 .textarea-wrapper{
   padding-bottom: 30px;
   border-bottom: 0;
 
 }
+
 .textarea {
   display: block;
   width: 400px;
   min-height: 90px;
-resize: vertical;
+  resize: vertical;
 }
 
-
 .site-botton{
-
   display: flex;
-justify-content: flex-end;
-align-items: center;
-margin: 40px;
-padding-bottom: 30px;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 40px;
+  padding-bottom: 30px;
 }
 
 
@@ -187,48 +171,3 @@ padding-bottom: 30px;
   background: transparent;
   border: 0;
 }
-
-/* Islomiddin
-tekshirilganlari
-
-1.Namanganliklar-24
-
-https://in-namanganliklar-24.netlify.app
-https://github.com/ISLOMIDDIN98/Namanganliklar-24.git
-
-2.Articles
-https://in-top-bloglar.netlify.app
-https://github.com/ISLOMIDDIN98/TOP-BLOGLAR.git
-
-
-
-3.Intro
-https://app.netlify.com/sites/in-learn-for-programmer/overview
-https://github.com/ISLOMIDDIN98/learn-for-programe.git
-
-4.Apple Watch
-https://app.netlify.com/sites/in-watch-apple/overview
-https://github.com/ISLOMIDDIN98/apple-watch--11-11-.git
-
-tekshirilmaganlari (adashmasam)
-
-5.Coffeeroasters
-https://app.netlify.com/sites/in-coffeeroasters/overview
-https://github.com/ISLOMIDDIN98/coffeeroasters.git
-
-6.Countries
-https://in-country-2021-12-11.netlify.app
-https://github.com/ISLOMIDDIN98/Countries-2021-11.git
-
-
-7.Loop 2 Step 1
-https://position-12-25.netlify.app
-https://github.com/ISLOMIDDIN98/qolip-repozite.git
-
-8.Loop 2 Step 2
-https://nifty-brahmagupta-281a87.netlify.app
-https://github.com/ISLOMIDDIN98/position-2021.12.28.git
-
-
-9.Pricing
-hali tayyor emas */
